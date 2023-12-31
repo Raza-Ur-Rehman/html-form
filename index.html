@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Saylani Admission Form </title>
+</head>
+<body>
+     <H1 align="center"> Course Registration Form </H1>
+     <p align="center"> Service - Education - Registration </p>
+    <form action="">
+         <p>Select city </p>
+           <select name="city" >
+                <option value="s">Select city </option>
+                <option value="k">Karachi</option>
+                <option value="f">Faisalabad</option>
+                <option value="h">Hyderabad</option>
+           </select>
+            <p> Select Course </p>
+            <select name="Course" >
+                <option value="s">Select Course </option>
+                <option value="u"> UI/UX Design </option>
+                <option value="w&m"> web & mobile App Devolopment </option>
+                <option value="g"> Graphic Design </option>
+                <option value="C"> Certified Computer Course </option>
+            </select>
+            <p> FUll Name </p> 
+            <input type="text" placeholder="Full Name" name="uname" size="15"    maxlength="20" /> 
+            <p> Father Name </p> 
+            <input type="text" placeholder="Father Name" name="Fname" size="15"    maxlength="20" />
+            <p> Phone Number </p> 
+            <input type="number" placeholder="Phone Number" name="phone" size="15"    maxlength="20" />
+            <p> Email </p> 
+            <input type="email" placeholder="Email" name="email" size="15"    maxlength="20" />
+            <p> CNIC </p> 
+            <input type="text" placeholder="CNIC" name="CNIC" size="15"    maxlength="20" />
+            <p> Father CNIC </p> 
+            <input type="text" placeholder="Father CNIC" name="FCNIC" size="15"    maxlength="20" />
+            <p> Date of Birth </p> 
+            <input type="date" name="DoB" />
+            <p>
+                <p> Gender </p>
+                <input type="radio" name="gender" value="M" checked/>
+                Male
+                <input type="radio"name="gender" value="FM"/> 
+                Female
+            </p>
+            <p> Address </p>
+               <input type="text" placeholder="Address" name="address" />
+            <p> Last qualification </p>
+               <select name="qualification" placeholder="Last qualification">
+                    <option value="lq">Last qualification</option>
+                    <option value="matric">matric</option>
+                    <option value="intermediate">intermediate</option>
+                    <option value="undergraduate">undergraduate</option>
+                    <option value="graduate">graduate</option>
+                    <option value="Master">Master</option>
+                    <option value="PHD">PHD</option>
+                    <option value="other">other</option>
+               </select>
+            <p> Do you have a Laptop? </p>
+            <select name="Do you have a laptop">
+                <option value="Do you have a Laptop?">Do you have a Laptop?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <p>Upload your picture </p> <input type="file" name="picture" />
+            <br /> 
+            <input type="submit" value="Upload" />
+    </form>
+   
+    
+</body>
+</html>
